@@ -4,31 +4,6 @@
   
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to the world of C++! Here, I am sure that you will have a taste of the wonder of C++. So let’s start! </p><h2 id="General-Speaking"><a href="#General-Speaking" class="headerlink" title="General Speaking"></a>General Speaking</h2><p>C++ 是一种高级语言，它是由 Bjarne Stroustrup 于 1979年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本</p><p>C++ 是一种静态类型的、编译式的、通用的、大小写敏感的、不规则的编程语言，支持过程化编程、面向对象编程和泛型编程。</p><p>C++ 被认为是一种中级语言，它综合了高级语言和低级语言的特点</p><h2 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h2><h3 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector &lt;<span class="hljs-built_in">type</span>&gt; a; <span class="hljs-comment">## size = capacity = 0</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n); <span class="hljs-comment">## size = 0 , capacity =n</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n, <span class="hljs-built_in">type</span> i); <span class="hljs-comment">## size = n , capacity =n | 赋值 ： n个i</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b); <span class="hljs-comment">## 复制构造函数</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b.begin(), vector &lt;<span class="hljs-built_in">type</span>&gt; b.end()); <span class="hljs-comment">## 复制另一vector的[begin,end）区间内容 并创建新vector</span><br></code></pre></td></tr></table></figure><h3 id="增加函数"><a href="#增加函数" class="headerlink" title="增加函数"></a>增加函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector&lt;int&gt;a;<br>$ a.push_back(1); <span class="hljs-comment">## 先创建元素，再拷贝或移动到容器中</span><br>$ a.emplace_back(2);  <span class="hljs-comment">## 直接在末尾创建元素</span><br>$ a.insert(a.end(),3) <span class="hljs-comment">## 向迭代器指向元素前 增加一个元素</span><br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>原创 C++</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>自我介绍</title>
     <link href="/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     <url>/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
@@ -54,6 +29,31 @@
   
   
   <entry>
+    <title>第一篇博客</title>
+    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to the world of C++! Here, I am sure that you will have a taste of the wonder of C++. So let’s start! </p><h2 id="General-Speaking"><a href="#General-Speaking" class="headerlink" title="General Speaking"></a>General Speaking</h2><p>C++ 是一种高级语言，它是由 Bjarne Stroustrup 于 1979年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本</p><p>C++ 是一种静态类型的、编译式的、通用的、大小写敏感的、不规则的编程语言，支持过程化编程、面向对象编程和泛型编程。</p><p>C++ 被认为是一种中级语言，它综合了高级语言和低级语言的特点</p><h2 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h2><h3 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector &lt;<span class="hljs-built_in">type</span>&gt; a; <span class="hljs-comment">## size = capacity = 0</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n); <span class="hljs-comment">## size = 0 , capacity =n</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n, <span class="hljs-built_in">type</span> i); <span class="hljs-comment">## size = n , capacity =n | 赋值 ： n个i</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b); <span class="hljs-comment">## 复制构造函数</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b.begin(), vector &lt;<span class="hljs-built_in">type</span>&gt; b.end()); <span class="hljs-comment">## 复制另一vector的[begin,end）区间内容 并创建新vector</span><br></code></pre></td></tr></table></figure><h3 id="增加函数"><a href="#增加函数" class="headerlink" title="增加函数"></a>增加函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector&lt;int&gt;a;<br>$ a.push_back(1); <span class="hljs-comment">## 先创建元素，再拷贝或移动到容器中</span><br>$ a.emplace_back(2);  <span class="hljs-comment">## 直接在末尾创建元素</span><br>$ a.insert(a.end(),3) <span class="hljs-comment">## 向迭代器指向元素前 增加一个元素</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创 C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test_my_site</title>
     <link href="/2023/03/26/test-my-site/"/>
     <url>/2023/03/26/test-my-site/</url>
@@ -61,6 +61,31 @@
     <content type="html"><![CDATA[]]></content>
     
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World —— 编程初探</title>
+    <link href="/2023/03/26/hello-world/"/>
+    <url>/2023/03/26/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">黄磊的课堂</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start-开始！"><a href="#Quick-Start-开始！" class="headerlink" title="Quick Start 开始！"></a>Quick Start 开始！</h2><h3 id="Create-a-new-post-创造一个新的博客"><a href="#Create-a-new-post-创造一个新的博客" class="headerlink" title="Create a new post 创造一个新的博客"></a>Create a new post 创造一个新的博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server-运行服务器"><a href="#Run-server-运行服务器" class="headerlink" title="Run server 运行服务器"></a>Run server 运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files-生成静态文件"><a href="#Generate-static-files-生成静态文件" class="headerlink" title="Generate static files 生成静态文件"></a>Generate static files 生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites-调配远程仓库"><a href="#Deploy-to-remote-sites-调配远程仓库" class="headerlink" title="Deploy to remote sites  调配远程仓库"></a>Deploy to remote sites  调配远程仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo 原创</tag>
+      
+    </tags>
     
   </entry>
   
