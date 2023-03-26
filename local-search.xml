@@ -29,6 +29,31 @@
   
   
   <entry>
+    <title>第一篇博客</title>
+    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>C++</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test_my_site</title>
     <link href="/2023/03/26/test-my-site/"/>
     <url>/2023/03/26/test-my-site/</url>
