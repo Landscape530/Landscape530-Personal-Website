@@ -4,16 +4,16 @@
   
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <title>自我介绍</title>
+    <link href="/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+    <url>/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="我叫黄磊"><a href="#我叫黄磊" class="headerlink" title="我叫黄磊"></a>我叫黄磊</h2><p>今年22岁<br>来自浙江杭州</p><h3 id="一个外向活泼的人"><a href="#一个外向活泼的人" class="headerlink" title="一个外向活泼的人"></a>一个外向活泼的人</h3><p>在浙江省临安中学度过了快乐的三年<br>现在就读于香港中文大学（深圳）计算机工程专业——大三<br>平时喜欢打打篮球，唱唱歌，和我的朋友们出去玩耍</p><h3 id="目前"><a href="#目前" class="headerlink" title="目前"></a>目前</h3><p>致力于寻找实习</p><h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>申请香港的研究生</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><h2 id="加油！！！"><a href="#加油！！！" class="headerlink" title="加油！！！"></a>加油！！！</h2><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
     
     
     <categories>
       
-      <category>C++</category>
+      <category>介绍</category>
       
     </categories>
     
@@ -29,16 +29,16 @@
   
   
   <entry>
-    <title>自我介绍</title>
-    <link href="/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/"/>
-    <url>/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/</url>
+    <title>第一篇博客</title>
+    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<p>我叫黄磊<br>今年22岁<br>来自浙江杭州<br>一个外向活泼的人<br>在浙江省临安中学度过了快乐的三年<br>现在就读于香港中文大学（深圳）计算机工程专业——大三<br>平时喜欢打打篮球，唱唱歌，和我的朋友们出去玩耍<br>目前致力于寻找实习<br>目标申请香港的研究生<br>加油！！！<br><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg"></p>]]></content>
     
     
     <categories>
       
-      <category>介绍</category>
+      <category>C++</category>
       
     </categories>
     
@@ -67,11 +67,11 @@
   
   
   <entry>
-    <title>Hello World</title>
+    <title>Hello World —— 编程初探</title>
     <link href="/2023/03/26/hello-world/"/>
     <url>/2023/03/26/hello-world/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">黄磊的课堂</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start-开始！"><a href="#Quick-Start-开始！" class="headerlink" title="Quick Start 开始！"></a>Quick Start 开始！</h2><h3 id="Create-a-new-post-创造一个新的博客"><a href="#Create-a-new-post-创造一个新的博客" class="headerlink" title="Create a new post 创造一个新的博客"></a>Create a new post 创造一个新的博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server-运行服务器"><a href="#Run-server-运行服务器" class="headerlink" title="Run server 运行服务器"></a>Run server 运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files-生成静态文件"><a href="#Generate-static-files-生成静态文件" class="headerlink" title="Generate static files 生成静态文件"></a>Generate static files 生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites-调配远程仓库"><a href="#Deploy-to-remote-sites-调配远程仓库" class="headerlink" title="Deploy to remote sites  调配远程仓库"></a>Deploy to remote sites  调配远程仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
     
