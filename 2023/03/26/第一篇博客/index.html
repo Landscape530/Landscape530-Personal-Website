@@ -16,20 +16,18 @@
   <meta name="author" content="黄磊">
   <meta name="keywords" content="初创">
   
-    <meta name="description" content="这是一篇测试文章">
+    <meta name="description" content="Welcome to the world of C++! Here, I am sure that you will have a taste of the wonder of C++. So let’s start!  General SpeakingC++ 是一种高级语言，它是由 Bjarne Stroustrup 于 1979年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一篇博客">
 <meta property="og:url" content="http://example.com/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hl&#39;s personal blog">
-<meta property="og:description" content="这是一篇测试文章">
+<meta property="og:description" content="Welcome to the world of C++! Here, I am sure that you will have a taste of the wonder of C++. So let’s start!  General SpeakingC++ 是一种高级语言，它是由 Bjarne Stroustrup 于 1979年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg">
 <meta property="article:published_time" content="2023-03-26T09:48:57.000Z">
-<meta property="article:modified_time" content="2023-03-26T11:53:10.287Z">
+<meta property="article:modified_time" content="2023-03-26T13:20:22.556Z">
 <meta property="article:author" content="黄磊">
-<meta property="article:tag" content="原创">
+<meta property="article:tag" content="原创 C++">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg">
   
   
   
@@ -222,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          8 字
+          760 字
         
       </span>
     
@@ -233,7 +231,7 @@
         
         
         
-          1 分钟
+          7 分钟
         
       </span>
     
@@ -276,9 +274,13 @@
             
               <div class="markdown-body">
                 
-                <p>这是一篇测试文章</p>
-<p><img src="/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg" srcset="/img/loading.gif" lazyload></p>
+                <p>Welcome to the world of C++! Here, I am sure that you will have a taste of the wonder of C++. So let’s start! </p>
+<h2 id="General-Speaking"><a href="#General-Speaking" class="headerlink" title="General Speaking"></a>General Speaking</h2><p>C++ 是一种高级语言，它是由 Bjarne Stroustrup 于 1979年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本</p>
+<p>C++ 是一种静态类型的、编译式的、通用的、大小写敏感的、不规则的编程语言，支持过程化编程、面向对象编程和泛型编程。</p>
+<p>C++ 被认为是一种中级语言，它综合了高级语言和低级语言的特点</p>
+<h2 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h2><h3 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector &lt;<span class="hljs-built_in">type</span>&gt; a; <span class="hljs-comment">## size = capacity = 0</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n); <span class="hljs-comment">## size = 0 , capacity =n</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(int n, <span class="hljs-built_in">type</span> i); <span class="hljs-comment">## size = n , capacity =n | 赋值 ： n个i</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b); <span class="hljs-comment">## 复制构造函数</span><br>$ vector &lt;<span class="hljs-built_in">type</span>&gt; a(vector &lt;<span class="hljs-built_in">type</span>&gt; b.begin(), vector &lt;<span class="hljs-built_in">type</span>&gt; b.end()); <span class="hljs-comment">## 复制另一vector的[begin,end）区间内容 并创建新vector</span><br></code></pre></td></tr></table></figure>
 
+<h3 id="增加函数"><a href="#增加函数" class="headerlink" title="增加函数"></a>增加函数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ vector&lt;int&gt;a;<br>$ a.push_back(1); <span class="hljs-comment">## 先创建元素，再拷贝或移动到容器中</span><br>$ a.emplace_back(2);  <span class="hljs-comment">## 直接在末尾创建元素</span><br>$ a.insert(a.end(),3) <span class="hljs-comment">## 向迭代器指向元素前 增加一个元素</span><br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -296,7 +298,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/C/" class="category-chain-item">C++</a>
+  <a href="/categories/%E7%BC%96%E7%A8%8B/" class="category-chain-item">编程</a>
   
   
 
@@ -311,7 +313,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%8E%9F%E5%88%9B/">#原创</a>
+        <a href="/tags/%E5%8E%9F%E5%88%9B-C/">#原创 C++</a>
       
     </div>
   
@@ -368,18 +370,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/" title="自我介绍">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">自我介绍</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/03/26/test-my-site/" title="test_my_site">
-                        <span class="hidden-mobile">test_my_site</span>
+                      <a href="/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/" title="自我介绍">
+                        <span class="hidden-mobile">自我介绍</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
