@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>黄磊好帅</title>
-    <link href="/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/"/>
-    <url>/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/</url>
+    <title>第一篇博客</title>
+    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E5%91%A8%E6%9D%B0%E4%BC%A6.jpg"></p>]]></content>
     
     
     <categories>
@@ -29,16 +29,16 @@
   
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <title>自我介绍</title>
+    <link href="/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/"/>
+    <url>/2023/03/26/%E9%BB%84%E7%A3%8A%E5%A5%BD%E5%B8%85/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>我叫黄磊<br>今年22岁<br>来自浙江杭州<br>一个外向活泼的人<br>在浙江省临安中学度过了快乐的三年<br>现在就读于香港中文大学（深圳）计算机工程专业——大三<br>平时喜欢打打篮球，唱唱歌，和我的朋友们出去玩耍<br>目前致力于寻找实习<br>目标申请香港的研究生<br>加油！！！<br><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
     
     
     <categories>
       
-      <category>C++</category>
+      <category>介绍</category>
       
     </categories>
     
