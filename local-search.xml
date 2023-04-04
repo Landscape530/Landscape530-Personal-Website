@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>如何更新博客</title>
+    <link href="/2023/04/04/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/04/04/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="进入-D-Program-Files-x86-GIT-Git-仓库-blog-source-posts-中"><a href="#进入-D-Program-Files-x86-GIT-Git-仓库-blog-source-posts-中" class="headerlink" title="进入 D:\Program Files (x86)\GIT\Git\仓库\blog\source\posts 中"></a>进入 D:\Program Files (x86)\GIT\Git\仓库\blog\source\posts 中</h3><p>进行修改</p><h3 id="文件cmd中-执行以下操作："><a href="#文件cmd中-执行以下操作：" class="headerlink" title="文件cmd中 执行以下操作："></a>文件cmd中 执行以下操作：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo clean<br>$ hexo g<br>$ hexo d<br></code></pre></td></tr></table></figure><h3 id="github-desktop中-Fetch-origin-后-Push-origin"><a href="#github-desktop中-Fetch-origin-后-Push-origin" class="headerlink" title="github-desktop中 Fetch origin 后 Push origin"></a>github-desktop中 Fetch origin 后 Push origin</h3><h2 id="Deal"><a href="#Deal" class="headerlink" title="Deal!!!"></a>Deal!!!</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>信息</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第一篇博客</title>
     <link href="/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <url>/2023/03/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
@@ -35,7 +60,7 @@
     <link href="/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     <url>/2023/03/26/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//https://y.qq.com/n/ryqq/player"></iframe><h2 id="我叫黄磊"><a href="#我叫黄磊" class="headerlink" title="我叫黄磊"></a>我叫黄磊</h2><p>今年22岁</p><p>来自浙江杭州</p><h3 id="一个外向活泼的人"><a href="#一个外向活泼的人" class="headerlink" title="一个外向活泼的人"></a>一个外向活泼的人</h3><p>在浙江省临安中学度过了快乐的三年</p><p>现在就读于香港中文大学（深圳）计算机工程专业——大三</p><p>平时喜欢打打篮球，唱唱歌，和我的朋友们出去玩耍</p><h3 id="目前"><a href="#目前" class="headerlink" title="目前"></a>目前</h3><p>致力于寻找实习</p><h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>申请香港的研究生</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><h2 id="加油！！！"><a href="#加油！！！" class="headerlink" title="加油！！！"></a>加油！！！</h2><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//https://y.qq.com/n/ryqq/player"></iframe> --><h2 id="我叫黄磊"><a href="#我叫黄磊" class="headerlink" title="我叫黄磊"></a>我叫黄磊</h2><p>今年22岁</p><p>来自浙江杭州</p><h3 id="一个外向活泼的人"><a href="#一个外向活泼的人" class="headerlink" title="一个外向活泼的人"></a>一个外向活泼的人</h3><p>在浙江省临安中学度过了快乐的三年</p><p>现在就读于香港中文大学（深圳）计算机工程专业——大三</p><p>平时喜欢打打篮球，唱唱歌，和我的朋友们出去玩耍</p><h3 id="目前"><a href="#目前" class="headerlink" title="目前"></a>目前</h3><p>致力于寻找实习</p><h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>申请香港的研究生</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><h2 id="加油！！！"><a href="#加油！！！" class="headerlink" title="加油！！！"></a>加油！！！</h2><p><img src="/images/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg"></p>]]></content>
     
     
     <categories>
