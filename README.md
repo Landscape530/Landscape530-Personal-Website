@@ -1,2 +1,2 @@
-# Landscape530.github.io
+# Landscape530个人网站
 personal website
